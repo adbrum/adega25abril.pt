@@ -1,5 +1,5 @@
 {
-  "homepage": "http://adbrum.github.io/adega25abril.pt",
+  "homepage": "https://adega25deabril.pt",
   "name": "adega25deabril.pt",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
