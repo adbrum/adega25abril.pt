@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/adega25abril.pt/static/js/main.2fdd6434.chunk.js",
+    "main.js.map": "/adega25abril.pt/static/js/main.2fdd6434.chunk.js.map",
+    "runtime-main.js": "/adega25abril.pt/static/js/runtime-main.6501c051.js",
+    "runtime-main.js.map": "/adega25abril.pt/static/js/runtime-main.6501c051.js.map",
+    "static/js/2.f971d296.chunk.js": "/adega25abril.pt/static/js/2.f971d296.chunk.js",
+    "static/js/2.f971d296.chunk.js.map": "/adega25abril.pt/static/js/2.f971d296.chunk.js.map",
+    "index.html": "/adega25abril.pt/index.html",
+    "precache-manifest.b167cdc9f8f833db323f86adcc96cd78.js": "/adega25abril.pt/precache-manifest.b167cdc9f8f833db323f86adcc96cd78.js",
+    "service-worker.js": "/adega25abril.pt/service-worker.js",
+    "static/js/2.f971d296.chunk.js.LICENSE.txt": "/adega25abril.pt/static/js/2.f971d296.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6501c051.js",
+    "static/js/2.f971d296.chunk.js",
+    "static/js/main.2fdd6434.chunk.js"
+  ]
+}
