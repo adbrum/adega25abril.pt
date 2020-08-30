@@ -1,23 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState, useEffect } from "react";
-import mongoose from "mongoose";
-import api from "../../services/api";
 
 function index() {
-  /* const [products, setProducts] = useState([]);
-
-  mongoose.connect(
-    "mongodb+srv://adega25:ruadamoeda@adega.i30lz.mongodb.net/adega25?retryWrites=true&w=majority",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    }
-  );
-
-  mongoose.connection.on("connected", () => {
-    console.log("Mongoose connected!!!");
-  }); */
-
   return (
     <div>
       <section className="banner_part">
