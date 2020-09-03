@@ -11,13 +11,13 @@ const PORT = process.env.PORT || 8080;
 const routes = require("./routes/api");
 app.use(routes);
 
-const MONGODB_URI = process.env.MONGODB_URI.connect( // Step 2
-  MONGODB_URI || "mongodb://localhost/adega25",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+//const MONGODB_URI = process.env.MONGODB_URI;
+
+// Step 2
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/adega25", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 mongoose.connection.on("connected", () => {
   console.log("Mongoose is connected!!!!");
