@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { string } = require("yargs");
 
 // Schema
 const Schema = mongoose.Schema;

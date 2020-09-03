@@ -2,14 +2,18 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
-const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 8080; // Step 1
+const PORT = process.env.PORT || 8080;
+
+// Step 1
 
 const routes = require("./routes/api");
+app.use(routes);
+
 const MONGODB_URI =
   "mongodb+srv://adega25:ruadamoeda@adega.i30lz.mongodb.net/adega25?retryWrites=true&w=majority";
+
 // Step 2
 mongoose.connect(MONGODB_URI || "mongodb://localhost/adega25", {
   useNewUrlParser: true,
@@ -21,8 +25,8 @@ mongoose.connection.on("connected", () => {
 });
 
 // Data parsing
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
 
 // Step 3
 

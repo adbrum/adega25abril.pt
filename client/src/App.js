@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Header from "./components/Header";
 import Banner from "./components/Banner";
@@ -7,8 +7,21 @@ import Introvideo from "./components/Introvideo";
 import Foodmenu from "./components/Foodmenu";
 import Chef from "./components/Chef";
 import Footer from "./components/Footer";
+import axios from "axios";
 
 export default function App() {
+  useEffect(() => {
+    axios
+      .get("/example")
+      .then((response) => {
+        //const data = response.data;
+        console.log("Data has been received!! ", response);
+      })
+      .catch((error) => {
+        alert("Error retrieving data!!! ", error);
+      });
+  }, []);
+
   return (
     <div className="App">
       <Header />
