@@ -269,7 +269,7 @@ function index() {
                         />
                         <div className="media-body align-self-center">
                           <h3>Sopa do dia</h3>
-                          <p>Feijão com couve</p>
+                          <p>Sopa de legumes</p>
                           <h5>1,75€</h5>
                         </div>
                       </div>
@@ -281,7 +281,7 @@ function index() {
                         />
                         <div className="media-body align-self-center">
                           <h3>Carne 01</h3>
-                          <p>Língua de porco estufada</p>
+                          <p>Frango do campo de cebolada e castanhas</p>
                           <h5>9€ dose</h5>
                         </div>
                       </div>
@@ -307,8 +307,8 @@ function index() {
                         />
                         <div className="media-body align-self-center">
                           <h3>Peixe 01</h3>
-                          <p>Sopas de tomate c/ bacalhau e ovo</p>
-                          <h5>11€ dose</h5>
+                          <p>Carapaus fritos c/ arroz de tomate</p>
+                          <h5>8€ dose</h5>
                         </div>
                         {/*<div className="single_food_item media"> <img src="img/food_menu/logo.png" className="mr-3" alt="..."/> <div className="media-body align-self-center"> <h3>Peixe 02</h3> <p>Carapaus assados c/ salada de pimentos</p> <h5>8,50€ dose</h5> </div> </div> */}
                       </div>

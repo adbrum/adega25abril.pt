@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import axios from "axios";
 
 export default function App() {
-  useEffect(() => {
+  /* useEffect(() => {
     axios
       .get("/example")
       .then((response) => {
@@ -20,7 +20,7 @@ export default function App() {
       .catch((error) => {
         alert("Error retrieving data!!! ", error);
       });
-  }, []);
+  }, []); */
 
   return (
     <div className="App">
