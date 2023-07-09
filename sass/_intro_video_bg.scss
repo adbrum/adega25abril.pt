@@ -1,6 +1,6 @@
 /**************** intro_video css start ****************/
 .intro_video_bg{
-    @include background("../img/intro_video_bg.png");
+    @include background("../img/intro_video_bg.jpg");
     height: 550px;
     position: relative;
     z-index: 1;
